@@ -1,0 +1,18 @@
+@import './../../../../node_modules/ol/ol.css';
+.map {
+  width: 50%;
+  height: 50%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 5%;
+}
+
+#map {
+  position: absolute;
+  top: 20;
+  bottom: 10;
+  width: 20%;
+}
