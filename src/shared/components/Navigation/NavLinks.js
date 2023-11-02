@@ -9,7 +9,7 @@ function NavLinks(props) {
 
   const logoutHandler = () => {
     auth.logout();
-    history.push('/auth');
+    history.push('/');
   };
 
   return (
